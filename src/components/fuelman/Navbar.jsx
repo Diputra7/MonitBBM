@@ -8,7 +8,7 @@ export default function Navbar() {
   const handleLogout = () => {
     if (window.confirm("Apakah Anda yakin ingin keluar?")) {
       localStorage.clear();
-      navigate("/login");
+      navigate("/");
     }
   };
 
